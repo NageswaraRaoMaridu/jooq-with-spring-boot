@@ -1,0 +1,34 @@
+# Server HTTP port.
+server:
+  port: ${PORT:6888}
+
+# Comma-separated list of active profiles. Can be overridden by a command line switch.
+# Possible values can be dev or production.
+spring:
+  profiles:
+    active: dev
+
+  # Service name.
+  application:
+    name: jooq-demo
+
+  liquibase:
+    # Whether to enable Liquibase support.
+    enabled: true
+    # Change log configuration path.
+    change-log: classpath:db/jooq-jdbc-changelog.xml
+
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/jooq-demo
+    username: postgres
+    password: root
+
+# Hibernate specific properties
+hibernate:
+  dialect: org.hibernate.dialect.PostgreSQL94Dialect
+  hbm2ddl:
+    auto: validate
+  show_sql: false
+  connection_pool_size: 10
