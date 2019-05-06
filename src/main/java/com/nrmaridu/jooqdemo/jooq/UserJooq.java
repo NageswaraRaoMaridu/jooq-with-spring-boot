@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2018, Synopsys, Inc. All rights reserved worldwide.
- */
-
 package com.nrmaridu.jooqdemo.jooq;
 
 import java.util.UUID;
@@ -9,7 +5,6 @@ import java.util.UUID;
 import org.jooq.Field;
 import org.jooq.Record;
 import org.jooq.Table;
-import org.jooq.TableField;
 import org.jooq.impl.DSL;
 
 /**

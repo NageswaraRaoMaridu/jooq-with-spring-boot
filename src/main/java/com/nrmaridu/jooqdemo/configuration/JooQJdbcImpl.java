@@ -14,13 +14,7 @@ import org.jooq.conf.Settings;
 import org.jooq.impl.DSL;
 import org.jooq.impl.DefaultConfiguration;
 import org.jooq.impl.DefaultRecordMapperProvider;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
-
-/**
- *
- */
 public class JooQJdbcImpl implements Jooq {
 
     private final Settings defaultSettings = new Settings()

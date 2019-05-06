@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2018, Synopsys, Inc. All rights reserved worldwide.
- */
-
 package com.nrmaridu.jooqdemo;
 
 import org.springframework.boot.test.context.TestConfiguration;

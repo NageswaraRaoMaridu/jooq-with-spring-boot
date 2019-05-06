@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2018, Synopsys, Inc. All rights reserved worldwide.
- */
-
 package com.nrmaridu.jooqdemo.model;
 
 import java.util.UUID;
